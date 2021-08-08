@@ -13,7 +13,6 @@ function AllMeetups(props) {
       return response.json()
     })
     .then((data) => {
-      console.log('Read: ', data);
       const meetups = [];
       for (const key in data) {
         const meetup = {
