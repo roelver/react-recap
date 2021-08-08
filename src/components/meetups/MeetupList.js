@@ -5,7 +5,7 @@ function MeetupList(props)  {
     return (
         <ul className={css.list}>
             { props.data.map((item) => 
-               <MeetupItem key={item.id} item={item} addFavs={props.addFavs}/>
+               <MeetupItem key={item.id} item={item}/>
             )}
         </ul>
     );

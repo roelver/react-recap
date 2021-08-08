@@ -34,7 +34,7 @@ function AllMeetups(props) {
     :
     <section>
       <h1>All meetups</h1>
-      <MeetupList data={allMeetups} addFavs={props.addFavs}/>
+      <MeetupList data={allMeetups}/>
     </section>;
 }
 
