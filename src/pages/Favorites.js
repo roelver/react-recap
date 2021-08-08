@@ -8,6 +8,7 @@ function Favorites() {
     return <section>
         <h1>Favorites</h1>
         <MeetupList data={context.favorites}/>
+        {context.totalFavorites === 0 ? <h3>There are no favorites</h3> : ""}
     </section>;
 
 }
