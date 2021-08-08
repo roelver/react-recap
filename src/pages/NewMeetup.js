@@ -1,4 +1,4 @@
-import { useHistory, UseHistory} from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 import NewMeetupForm from '../components/meetups/NewMeetupForm';
 
